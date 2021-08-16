@@ -1,0 +1,100 @@
+.posts {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 792px;
+    height: auto;
+    background: white; 
+    border-radius: 20px;
+    margin: 20px 20px 40px 20px;
+  }
+  
+  .info-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+  }
+  
+  .content__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .content__info-top {
+    margin: 20px;
+  }
+  
+  .content__info-img {
+    margin: 20px 0px auto 20px;
+  }
+  
+  .name {
+    display: flex;
+  }
+  
+  .square {
+    margin-left: 4px;
+    margin-right: 12px;
+  }
+  
+  .real-name {
+    font-family: Life Savers;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color:black;
+  }
+  
+  .nickname {
+    font-family: Kulim Park sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #41086D;
+  }
+  
+  .text {
+    font-family: Life Savers;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .photo__img {
+    width: 668px;
+    height: 312px;
+    border-radius: 20px;
+  }
+  
+  .arrow {
+  margin-left: auto;
+  }
+  
+  .icons {
+    display: flex;
+    margin-top: 8px;
+  }
+  
+  .comments, .reposts, .likes {
+    width: 172px;
+    font-family: Life Savers;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  .comment, .repost, .like {
+      margin-left: 8px;
+      color: black;
+  }
+
+  .square, .download {
+    color:#389729;  
+  }
