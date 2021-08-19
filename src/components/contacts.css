@@ -112,13 +112,15 @@
 .info-mainInfo {
     background: white;
     color: black;
-    font-size: 24px;
-    padding: 20px;
+    font-size: 32px;
+    padding: 40px;
     border-radius: 20px;
-    width: 320px;
+    width: 640px;
     height: auto;
-    margin-left: 400px;
-    margin-top: -210px;
+    margin: auto;
+    margin-top: 10%;
+    outline: 3px solid white;
+    outline-offset: 10px;
 }
 
 .info-title {
@@ -126,7 +128,6 @@
     font-weight: 800;
 }
 
-.info-arrow {
-    margin-left: -20px;
-    color: white;
+.info-container {
+    height: 800px;
 }

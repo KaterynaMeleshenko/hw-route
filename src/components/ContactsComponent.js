@@ -136,4 +136,5 @@ const ContactsComponent = () => {
   )
 }
 
+export { contacts };
 export default ContactsComponent;
